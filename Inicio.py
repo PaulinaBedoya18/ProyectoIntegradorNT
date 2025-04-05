@@ -123,14 +123,14 @@ col1, col2 = st.columns([1, 2])
 
 # Columna izquierda: Foto del estudiante
 with col1:
-    st.image("assets/foto.jpg", width=200, caption="Estudiante", output_format="JPEG")
+    st.image("assets/FotoPaulina.jpeg", width=200, caption="Estudiante", output_format="JPEG")
 
 # Columna derecha: Información del estudiante
 with col2:
-    st.markdown('<h3 style="color: #0066cc; margin-top: 0px;">Juan Pérez González</h3>', unsafe_allow_html=True)
+    st.markdown('<h3 style="color: #0066cc; margin-top: 0px;">Maria Paulina Lopera Bedoya</h3>', unsafe_allow_html=True)
     st.markdown('<p style="margin-top: 10px;">Programa: <span style="color: #0066cc; font-weight: bold;">Desarrollo de Software</span></p>', unsafe_allow_html=True)
     st.markdown('<p>Semestre: <span style="color: #0066cc; font-weight: bold;">2025-1</span></p>', unsafe_allow_html=True)
-    st.markdown('<p>Repositorio: <a href="https://github.com/username/proyecto-ntp" target="_blank" style="color: #0066cc; font-weight: bold; text-decoration: none;">GitHub</a></p>', unsafe_allow_html=True)
+    st.markdown('<p>Repositorio: <a href="https://github.com/PaulinaBedoya18/ProyectoIntegradorNT.git" target="_blank" style="color: #0066cc; font-weight: bold; text-decoration: none;">GitHub</a></p>', unsafe_allow_html=True)
    
 
 

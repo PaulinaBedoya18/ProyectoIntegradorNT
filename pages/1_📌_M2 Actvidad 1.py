@@ -1,4 +1,5 @@
 import streamlit as st
+import pandas as pd
 
 # Configuración de la página
 st.set_page_config(   
@@ -26,4 +27,21 @@ st.markdown("""
 """)
 
 st.header("Solución")
+
+st.title("Actividad 1 - Creación de DataFrames")
+st.write("En esta actividad, crearemos un DataFrame utilizando la biblioteca pandas y realizaremos algunas operaciones básicas.")
+st.write("A continuación, se presentan los pasos para completar la actividad.")
+
+# Sección 1: Diccionario
+st.subheader("📚 DataFrame de Libros")
+libros_dict = {
+    "título": ["Cien años de soledad", "1984", "El principito", "Rayuela"],
+    "autor": ["Gabriel García Márquez", "George Orwell", "Antoine de Saint-Exupéry", "Julio Cortázar"],
+    "año de publicación": [1967, 1949, 1943, 1963],
+    "género": ["Realismo mágico", "Distopía", "Fábula", "Ficción"]
+}
+df_libros = pd.DataFrame(libros_dict)
+st.dataframe(df_libros) 
+
+
 
