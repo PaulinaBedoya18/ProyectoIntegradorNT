@@ -101,9 +101,10 @@ st.write("### Datos de Usuarios desde JSON")
 st.dataframe(df_json)
 
 
-csv_url = "https://raw.githubusercontent.com/juancri/datos-colombia/master/municipios_colombia.csv"
+
+csv_url = "https://people.sc.fsu.edu/~jburkardt/data/csv/hw_200.csv"
 df_url = pd.read_csv(csv_url)
-st.write("### Datos desde URL")
+st.write("Datos desde URL")
 st.dataframe(df_url)
 
 
